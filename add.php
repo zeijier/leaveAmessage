@@ -1,7 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2018-03-06/0006
- * Time: 21:31
- */
+<html>
+<form method="post" action="action.php?a=insert">
+标题：<input type="text" name="title" style="width: 100px;height: 40px;">
+留言者：<input type="text" name="pers" style="width: 100px;height: 40px;">
+留言内容：<textarea type="text" name="content" style="width: 400px;height: 200px;"></textarea>
+    <button type="submit">提交</button>
+</form>
+</html>
